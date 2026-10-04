@@ -1,6 +1,6 @@
 # Apache Pinot con Docker
 
-**Estudiante:** Nelson García Copa  
+**Estudiante:** Nelson Daniel García Copa
 **Proyecto original:** [Apache Pinot](https://github.com/apache/pinot)
 
 Despliegue de Apache Pinot con Docker Compose. La prueba carga datos de vuelos desde Kafka y realiza consultas SQL en tiempo real.
@@ -20,4 +20,4 @@ Para detener los contenedores:
 docker compose down
 ```
 
-Las capturas están en `evidencias/` y el análisis en `docs/`.
+El informe está en `informe/`, el diagrama editable en `diagrama/arquitectura-pinot.drawio` y las capturas en `evidencias/`.
