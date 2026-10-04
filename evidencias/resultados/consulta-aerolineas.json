@@ -1,0 +1,121 @@
+{
+  "resultTable": {
+    "dataSchema": {
+      "columnNames": [
+        "Carrier",
+        "vuelos",
+        "retraso_promedio"
+      ],
+      "columnDataTypes": [
+        "STRING",
+        "LONG",
+        "DOUBLE"
+      ]
+    },
+    "rows": [
+      [
+        "WN",
+        1489,
+        20.399597044996643
+      ],
+      [
+        "DL",
+        991,
+        19.95257315842583
+      ],
+      [
+        "EV",
+        855,
+        23.465497076023393
+      ],
+      [
+        "OO",
+        809,
+        13.025957972805934
+      ],
+      [
+        "AA",
+        794,
+        13.03022670025189
+      ],
+      [
+        "UA",
+        644,
+        17.33385093167702
+      ],
+      [
+        "US",
+        581,
+        10.869191049913942
+      ],
+      [
+        "MQ",
+        523,
+        25.45697896749522
+      ],
+      [
+        "B6",
+        320,
+        29.84375
+      ],
+      [
+        "AS",
+        219,
+        6.812785388127854
+      ]
+    ]
+  },
+  "numRowsResultSet": 10,
+  "partialResult": false,
+  "exceptions": [],
+  "numGroupsLimitReached": false,
+  "numGroupsWarningLimitReached": false,
+  "timeUsedMs": 23,
+  "requestId": "1295907404000000002",
+  "clientRequestId": null,
+  "brokerId": "Broker_pinot-broker_8099",
+  "numDocsScanned": 7671,
+  "totalDocs": 9864,
+  "numEntriesScannedInFilter": 9864,
+  "numEntriesScannedPostFilter": 15342,
+  "numServersQueried": 1,
+  "numServersResponded": 1,
+  "numSegmentsQueried": 1,
+  "numSegmentsProcessed": 1,
+  "numSegmentsMatched": 1,
+  "numConsumingSegmentsQueried": 1,
+  "numConsumingSegmentsProcessed": 0,
+  "numConsumingSegmentsMatched": 0,
+  "minConsumingFreshnessTimeMs": 1791129272770,
+  "numSegmentsPrunedByBroker": 0,
+  "numSegmentsPrunedByServer": 0,
+  "numSegmentsPrunedInvalid": 0,
+  "numSegmentsPrunedByLimit": 0,
+  "numSegmentsPrunedByValue": 0,
+  "brokerReduceTimeMs": 4,
+  "offlineThreadCpuTimeNs": 0,
+  "realtimeThreadCpuTimeNs": 0,
+  "offlineSystemActivitiesCpuTimeNs": 0,
+  "realtimeSystemActivitiesCpuTimeNs": 0,
+  "offlineResponseSerializationCpuTimeNs": 0,
+  "realtimeResponseSerializationCpuTimeNs": 0,
+  "offlineTotalCpuTimeNs": 0,
+  "realtimeTotalCpuTimeNs": 0,
+  "explainPlanNumEmptyFilterSegments": 0,
+  "explainPlanNumMatchAllFilterSegments": 0,
+  "traceInfo": {},
+  "tablesQueried": [
+    "airlineStats"
+  ],
+  "offlineThreadMemAllocatedBytes": 0,
+  "realtimeThreadMemAllocatedBytes": 0,
+  "offlineResponseSerMemAllocatedBytes": 0,
+  "realtimeResponseSerMemAllocatedBytes": 0,
+  "offlineTotalMemAllocatedBytes": 0,
+  "realtimeTotalMemAllocatedBytes": 0,
+  "pools": [
+    -1
+  ],
+  "rlsFiltersApplied": false,
+  "groupsTrimmed": false
+}

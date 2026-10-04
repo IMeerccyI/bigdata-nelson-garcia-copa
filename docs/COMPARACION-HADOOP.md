@@ -9,7 +9,7 @@
 | Almacenamiento distribuido | Bloques de archivos en HDFS | Segmentos columnares administrados por Pinot Server |
 | Procesamiento distribuido | MapReduce coordinado por YARN | Consultas OLAP distribuidas e ingestión continua |
 | Interfaces web | NameNode, DataNode, ResourceManager y HistoryServer | Controller y explorador de consultas SQL |
-| Persistencia | Volúmenes para NameNode, DataNode e historial | Directorios montados para Kafka, ZooKeeper, Controller, Server y Minion |
+| Persistencia | Volúmenes para NameNode, DataNode e historial | Volumen Docker para Kafka y directorios locales para ZooKeeper y Pinot |
 | Complejidad de instalación | Media | Media |
 | Documentación | README y configuración de Hadoop | Documentación oficial, README y API web |
 | Caso de uso | Almacenamiento masivo y procesamiento por lotes | Analítica de eventos en tiempo real y consultas de baja latencia |

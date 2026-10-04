@@ -1,0 +1,70 @@
+{
+  "resultTable": {
+    "dataSchema": {
+      "columnNames": [
+        "total_registros"
+      ],
+      "columnDataTypes": [
+        "LONG"
+      ]
+    },
+    "rows": [
+      [
+        9864
+      ]
+    ]
+  },
+  "numRowsResultSet": 1,
+  "partialResult": false,
+  "exceptions": [],
+  "numGroupsLimitReached": false,
+  "numGroupsWarningLimitReached": false,
+  "timeUsedMs": 263,
+  "requestId": "1295907404000000000",
+  "clientRequestId": null,
+  "brokerId": "Broker_pinot-broker_8099",
+  "numDocsScanned": 9864,
+  "totalDocs": 9864,
+  "numEntriesScannedInFilter": 0,
+  "numEntriesScannedPostFilter": 0,
+  "numServersQueried": 1,
+  "numServersResponded": 1,
+  "numSegmentsQueried": 1,
+  "numSegmentsProcessed": 1,
+  "numSegmentsMatched": 1,
+  "numConsumingSegmentsQueried": 1,
+  "numConsumingSegmentsProcessed": 0,
+  "numConsumingSegmentsMatched": 0,
+  "minConsumingFreshnessTimeMs": 1791129242168,
+  "numSegmentsPrunedByBroker": 0,
+  "numSegmentsPrunedByServer": 0,
+  "numSegmentsPrunedInvalid": 0,
+  "numSegmentsPrunedByLimit": 0,
+  "numSegmentsPrunedByValue": 0,
+  "brokerReduceTimeMs": 10,
+  "offlineThreadCpuTimeNs": 0,
+  "realtimeThreadCpuTimeNs": 0,
+  "offlineSystemActivitiesCpuTimeNs": 0,
+  "realtimeSystemActivitiesCpuTimeNs": 0,
+  "offlineResponseSerializationCpuTimeNs": 0,
+  "realtimeResponseSerializationCpuTimeNs": 0,
+  "offlineTotalCpuTimeNs": 0,
+  "realtimeTotalCpuTimeNs": 0,
+  "explainPlanNumEmptyFilterSegments": 0,
+  "explainPlanNumMatchAllFilterSegments": 0,
+  "traceInfo": {},
+  "tablesQueried": [
+    "airlineStats"
+  ],
+  "offlineThreadMemAllocatedBytes": 0,
+  "realtimeThreadMemAllocatedBytes": 0,
+  "offlineResponseSerMemAllocatedBytes": 0,
+  "realtimeResponseSerMemAllocatedBytes": 0,
+  "offlineTotalMemAllocatedBytes": 0,
+  "realtimeTotalMemAllocatedBytes": 0,
+  "pools": [
+    -1
+  ],
+  "rlsFiltersApplied": false,
+  "groupsTrimmed": false
+}

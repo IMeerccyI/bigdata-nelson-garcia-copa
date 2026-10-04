@@ -42,4 +42,5 @@ docker compose down
 - `scripts/`: automatización de la prueba funcional.
 - `diagrama/`: arquitectura real del despliegue.
 - `evidencias/`: capturas y resultados obtenidos.
+- `docs/ANALISIS-REPOSITORIO.md`: análisis solicitado por la guía.
 - `docs/COMPARACION-HADOOP.md`: comparación con Big Data Europe Docker Hadoop.

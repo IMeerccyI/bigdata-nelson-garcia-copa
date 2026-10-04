@@ -14,3 +14,7 @@ Entrega académica LG14 basada en Apache Pinot. El objetivo es desplegar con Doc
 ## Entregable
 
 Repositorio público con README sencillo, configuración reproducible, scripts, diagrama, comparación con Hadoop y evidencias reales.
+
+## Verificación realizada
+
+El clúster inició con seis contenedores. La tabla `airlineStats` recibió eventos desde Kafka y respondió dos consultas SQL sin excepciones. Los resultados persistidos están en `evidencias/resultados/`.
