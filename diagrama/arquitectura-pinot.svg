@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font: 700 34px sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 18px sans-serif; fill: #475569; }
+      .box-title { font: 700 22px sans-serif; fill: #ffffff; }
+      .box-text { font: 400 16px sans-serif; fill: #e2e8f0; }
+      .label { font: 600 16px sans-serif; fill: #334155; }
+      .arrow { stroke: #334155; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .coord { stroke: #64748b; stroke-width: 3; stroke-dasharray: 10 8; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1400" height="760" fill="#f8fafc"/>
+  <text x="700" y="55" text-anchor="middle" class="title">Arquitectura Apache Pinot con Docker Compose</text>
+  <text x="700" y="87" text-anchor="middle" class="subtitle">Flujo funcional de eventos de vuelos en tiempo real</text>
+
+  <rect x="70" y="260" rx="18" width="210" height="130" fill="#0f766e"/>
+  <text x="175" y="310" text-anchor="middle" class="box-title">Productor</text>
+  <text x="175" y="343" text-anchor="middle" class="box-text">airlineStats.avro</text>
+  <text x="175" y="370" text-anchor="middle" class="box-text">eventos de vuelos</text>
+
+  <rect x="355" y="260" rx="18" width="210" height="130" fill="#b45309"/>
+  <text x="460" y="310" text-anchor="middle" class="box-title">Kafka</text>
+  <text x="460" y="343" text-anchor="middle" class="box-text">flights-realtime</text>
+  <text x="460" y="370" text-anchor="middle" class="box-text">puerto 9092</text>
+
+  <rect x="640" y="260" rx="18" width="210" height="130" fill="#1d4ed8"/>
+  <text x="745" y="310" text-anchor="middle" class="box-title">Pinot Server</text>
+  <text x="745" y="343" text-anchor="middle" class="box-text">segmentos columnares</text>
+  <text x="745" y="370" text-anchor="middle" class="box-text">puerto 8098</text>
+
+  <rect x="925" y="260" rx="18" width="210" height="130" fill="#6d28d9"/>
+  <text x="1030" y="310" text-anchor="middle" class="box-title">Pinot Broker</text>
+  <text x="1030" y="343" text-anchor="middle" class="box-text">distribuye consultas</text>
+  <text x="1030" y="370" text-anchor="middle" class="box-text">puerto 8099</text>
+
+  <rect x="1185" y="260" rx="18" width="170" height="130" fill="#be123c"/>
+  <text x="1270" y="310" text-anchor="middle" class="box-title">Usuario</text>
+  <text x="1270" y="343" text-anchor="middle" class="box-text">SQL y navegador</text>
+  <text x="1270" y="370" text-anchor="middle" class="box-text">resultados</text>
+
+  <path d="M280 325 H345" class="arrow"/>
+  <path d="M565 325 H630" class="arrow"/>
+  <path d="M850 325 H915" class="arrow"/>
+  <path d="M1135 325 H1175" class="arrow"/>
+
+  <rect x="430" y="520" rx="18" width="230" height="130" fill="#0369a1"/>
+  <text x="545" y="570" text-anchor="middle" class="box-title">Controller</text>
+  <text x="545" y="603" text-anchor="middle" class="box-text">tablas y clúster</text>
+  <text x="545" y="630" text-anchor="middle" class="box-text">puerto 9000</text>
+
+  <rect x="75" y="520" rx="18" width="230" height="130" fill="#334155"/>
+  <text x="190" y="570" text-anchor="middle" class="box-title">ZooKeeper</text>
+  <text x="190" y="603" text-anchor="middle" class="box-text">coordinación Pinot</text>
+  <text x="190" y="630" text-anchor="middle" class="box-text">puerto 2181</text>
+
+  <rect x="790" y="520" rx="18" width="230" height="130" fill="#4d7c0f"/>
+  <text x="905" y="570" text-anchor="middle" class="box-title">Minion</text>
+  <text x="905" y="603" text-anchor="middle" class="box-text">tareas de fondo</text>
+  <text x="905" y="630" text-anchor="middle" class="box-text">puerto 9514</text>
+
+  <path d="M305 585 H420" class="coord"/>
+  <path d="M545 520 V430 H745 V400" class="coord"/>
+  <path d="M660 585 H780" class="coord"/>
+  <path d="M1030 400 V460 H545 V510" class="coord"/>
+
+  <text x="320" y="302" text-anchor="middle" class="label">publica</text>
+  <text x="602" y="302" text-anchor="middle" class="label">consume</text>
+  <text x="886" y="302" text-anchor="middle" class="label">consulta</text>
+  <text x="1160" y="302" text-anchor="middle" class="label">respuesta</text>
+</svg>
