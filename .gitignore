@@ -1,0 +1,6 @@
+# Datos generados por los contenedores
+pinot-docker-demo/
+
+# Archivos temporales
+*.log
+.DS_Store
